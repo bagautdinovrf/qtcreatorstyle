@@ -1,0 +1,25 @@
+/* File tabs in Qt Creator 18 and later. Matches the light editor schemes. */
+Core--Internal--ViewTabBar {
+  background: #eeede8;
+  border: none;
+  qproperty-drawBase: false;
+}
+
+Core--Internal--ViewTabBar::tab {
+  background: #eeede8;
+  border: none;
+  border-right: 1px solid #ddddd6;
+  border-bottom: 2px solid transparent;
+  padding: 7px 14px;
+  margin: 0;
+  min-width: 70px;
+}
+
+Core--Internal--ViewTabBar::tab:!selected:hover {
+  background: #e6e8e3;
+}
+
+Core--Internal--ViewTabBar::tab:selected {
+  background: #f9f8f4;
+  border-bottom: 2px solid #3b5d84;
+}

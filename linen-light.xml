@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme version="1.0" name="Linen Light">
+  <style name="Text" foreground="#36342e" background="#faf7ef"/>
+  <style name="Link" foreground="#365f88"/>
+  <style name="Selection" foreground="#36342e" background="#e3dbc9"/>
+  <style name="LineNumber" foreground="#655e51" background="#f0ece2"/>
+  <style name="SearchResult" background="#ede0b3"/>
+  <style name="SearchResultAlt1" background="#e8edda"/>
+  <style name="SearchResultAlt2" background="#e9e0eb"/>
+  <style name="SearchResultContainingFunction" foreground="#365f88"/>
+  <style name="SearchScope" background="#f3edde"/>
+  <style name="Parentheses" foreground="#365f88" background="#e3dbc9" bold="true"/>
+  <style name="ParenthesesMismatch" foreground="#9c4544" background="#f3e1d9" bold="true"/>
+  <style name="AutoComplete" foreground="#36342e" background="#e3dbc9"/>
+  <style name="CurrentLine" background="#f3edde"/>
+  <style name="CurrentLineNumber" foreground="#365f88" bold="true"/>
+  <style name="Occurrences" background="#e3dbc9"/>
+  <style name="Occurrences.Unused" foreground="#655e51"/>
+  <style name="Occurrences.Rename" background="#e3dbc9"/>
+  <style name="Number" foreground="#97512e"/>
+  <style name="String" foreground="#466b41"/>
+  <style name="Type" foreground="#34666a"/>
+  <style name="Concept" foreground="#8a522f"/>
+  <style name="Namespace" foreground="#68594d"/>
+  <style name="Local" foreground="#36342e"/>
+  <style name="Parameter" foreground="#596234"/>
+  <style name="Global" foreground="#984e56"/>
+  <style name="Field" foreground="#825175"/>
+  <style name="Static" foreground="#7c5491" italic="false"/>
+  <style name="StaticMember" foreground="#825175"/>
+  <style name="VirtualMethod" italic="false"/>
+  <style name="Function" foreground="#365f88"/>
+  <style name="FunctionDefinition" foreground="#365f88" bold="true"/>
+  <style name="Macro" foreground="#805b37"/>
+  <style name="Keyword" foreground="#7e5261"/>
+  <style name="Attribute" foreground="#7e5261"/>
+  <style name="PrimitiveType" foreground="#776428"/>
+  <style name="Punctuation" foreground="#68594d"/>
+  <style name="Operator" foreground="#68594d"/>
+  <style name="Overloaded Operator" foreground="#68594d"/>
+  <style name="Preprocessor" foreground="#805b37"/>
+  <style name="Label" foreground="#365f88"/>
+  <style name="Comment" foreground="#655e51"/>
+  <style name="Doxygen.Comment" foreground="#655e51"/>
+  <style name="Doxygen.Tag" foreground="#34666a"/>
+  <style name="VisualWhitespace" foreground="#c9c1b0"/>
+  <style name="QmlLocalId" foreground="#36342e" italic="false"/>
+  <style name="QmlExternalId" foreground="#984e56" italic="false"/>
+  <style name="QmlTypeId" foreground="#34666a"/>
+  <style name="QmlRootObjectProperty" foreground="#825175" italic="false"/>
+  <style name="QmlScopeObjectProperty" foreground="#825175" italic="false"/>
+  <style name="QmlExternalObjectProperty" foreground="#984e56" italic="false"/>
+  <style name="JsScopeVar" foreground="#36342e" italic="false"/>
+  <style name="JsImportVar" foreground="#34666a" italic="false"/>
+  <style name="JsGlobalVar" foreground="#984e56" italic="false"/>
+  <style name="QmlStateName" foreground="#466b41" italic="false"/>
+  <style name="Binding" foreground="#7e5261"/>
+  <style name="DisabledCode" foreground="#655e51" background="#f0ece2"/>
+  <style name="AddedLine" foreground="#466b41"/>
+  <style name="RemovedLine" foreground="#9c4544"/>
+  <style name="DiffFile" foreground="#34666a"/>
+  <style name="DiffLocation" foreground="#365f88"/>
+  <style name="DiffFileLine" foreground="#36342e" background="#e3dbc9"/>
+  <style name="DiffContextLine" foreground="#68594d" background="#f0ece2"/>
+  <style name="DiffSourceLine" background="#f3e1d9"/>
+  <style name="DiffSourceChar" background="#eacac0"/>
+  <style name="DiffDestLine" background="#e8edda"/>
+  <style name="DiffDestChar" background="#cadcc3"/>
+  <style name="LogChangeLine" foreground="#365f88"/>
+  <style name="LogCommitHash" foreground="#97512e"/>
+  <style name="LogCommitSubject" foreground="#36342e"/>
+  <style name="LogDecoration" foreground="#466b41"/>
+  <style name="LogAuthorName" foreground="#34666a"/>
+  <style name="LogCommitDate" foreground="#655e51"/>
+  <style name="Warning" underlineColor="#776428" underlineStyle="WaveUnderline"/>
+  <style name="WarningContext" underlineColor="#776428" underlineStyle="DotLine"/>
+  <style name="Info" underlineColor="#365f88" underlineStyle="DashUnderline"/>
+  <style name="InfoContext" underlineColor="#365f88" underlineStyle="DotLine"/>
+  <style name="Error" underlineColor="#9c4544" underlineStyle="WaveUnderline"/>
+  <style name="ErrorContext" underlineColor="#9c4544" underlineStyle="DotLine"/>
+  <style name="Declaration"/>
+  <style name="OutputArgument" italic="true"/>
+</style-scheme>
