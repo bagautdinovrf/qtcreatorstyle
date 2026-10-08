@@ -4,6 +4,7 @@
 
 - `paper-light.xml` — **Paper Light** (вариант 7): спокойный бумажный фон и сдержанные акценты.
 - `linen-light.xml` — **Linen Light** (вариант 3): тёплый льняной фон и более выразительные оттенки.
+- `linen-light-work.xml` — **Linen Light Work**: тот же льняной фон, немного более контрастный текст и синтаксис, заметнее текущая строка и выделение.
 - `porcelain-light.xml` — **Porcelain Light**, современная светлая схема: фарфоровый фон, графитовый текст, мягкие синие акценты, приглушённые зелёные строки и сливовые ключевые слова.
 - `creator-dark_copy.xml` — **MyDark**.
 - `inkpot_copy.xml` — **MyInk**.
@@ -11,15 +12,15 @@
 ## Установка
 
 В Windows скопируйте XML-файл в `%APPDATA%\QtProject\qtcreator\styles`.
-Для Paper Light и Linen Light выполните из корня репозитория в PowerShell:
+Для Paper Light, Linen Light и Linen Light Work выполните из корня репозитория в PowerShell:
 
 ```powershell
 $styles = Join-Path $env:APPDATA 'QtProject\qtcreator\styles'
 New-Item -ItemType Directory -Force -Path $styles | Out-Null
-Copy-Item .\paper-light.xml, .\linen-light.xml -Destination $styles
+Copy-Item .\paper-light.xml, .\linen-light.xml, .\linen-light-work.xml -Destination $styles
 ```
 
-В Qt Creator выберите **Preferences → Text Editor → Font & Colors → Color scheme → Paper Light** или **Linen Light**.
+В Qt Creator выберите **Preferences → Text Editor → Font & Colors → Color scheme → Paper Light**, **Linen Light** или **Linen Light Work**.
 Если приложение было открыто во время копирования, перезапустите его или импортируйте XML через кнопку **Import** на той же странице.
 На других ОС также можно воспользоваться импортом. [Документация Qt Creator](https://doc.qt.io/qtcreator/creator-how-to-change-editor-colors.html).
 
@@ -31,6 +32,8 @@ Paper Light и Linen Light используют разные оттенки дл
 
 Имена полей, параметров и значений enum различаются при работающей семантической подсветке C++. Встроенные типы `int`, `double`, `bool` принадлежат одной категории `PrimitiveType`; отдельные цвета каждому из них XML-схема не задаёт. Исторический ключ `Static` оформляет значения перечислений, а `StaticMember` — статические поля.
 
+Linen Light Work сохраняет фон `#faf7ef` и исходные семейства цветов. Основной текст и цвета синтаксиса темнее; контраст основных категорий на обычном фоне повышен примерно на 11–20%. Минимальный контраст основных цветов синтаксиса на текущей строке — 5,58:1, на фоне выделения — 4,58:1. Комментарии остаются спокойными, функции — синими, строки — зелёными, ключевые слова — сливовыми. Шрифты и начертания совпадают с Linen Light.
+
 Шрифт задаётся отдельно в настройках Qt Creator. Подойдут уже установленные SF Mono или Cascadia Code.
 Для согласованного светлого интерфейса можно выбрать **Light (2024)** в **Preferences → Environment → Interface → Theme**.
 
@@ -39,7 +42,7 @@ Paper Light и Linen Light используют разные оттенки дл
 `editor-tabs-light.qss` оформляет вкладки открытых файлов в Qt Creator 18 и новее:
 ровные отступы, мягкий светлый фон, тонкие разделители и синяя линия толщиной 2 px
 под активной вкладкой. Высота вкладок при переключении не меняется.
-Стиль подходит к Paper Light, Linen Light и Porcelain Light.
+Стиль подходит к Paper Light, Linen Light, Linen Light Work и Porcelain Light.
 
 Включите **Preferences → Environment → Interface → Use tabbed editors**.
 Для привычного запуска добавьте к полю **Объект** существующего ярлыка Qt Creator
